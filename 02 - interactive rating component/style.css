@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.attribution {
+	position: fixed;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}
+
+.attribution a {
+	color: rgb(52, 172, 228);
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color: #141519;
+	font-family: 'Overpass', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.component {
+	width: 20%;
+	background-color: #1c232d;
+	padding: 30px;
+	border-radius: 25px;
+}
+
+#rating-block img {
+	background-color: #272e38;
+	border-radius: 50%;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+
+#rating-block h1 {
+	font-weight: 500;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+#rating-block p {
+	font-size: 16px;
+	color: #9ca3ad;
+	margin-bottom: 30px;
+}
+
+#rating-block .ratings {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+#rating-block .ratings span {
+	text-align: center;
+	line-height: 18px;
+	font-size: 16px;
+	width: 45px;
+	height: 45px;
+	color: #878f99;
+	background-color: #262f38;
+	border-radius: 50%;
+	padding: 15px;
+}
+
+#rating-block .ratings span:hover {
+	cursor: pointer;
+	background-color: #fc7613;
+	color: white;
+}
+
+.note-active {
+	color: white !important;
+	background-color: #fc7613 !important;
+}
+
+.note-hovered {
+	color: white !important;
+	background-color: rgba(255, 118, 20, 0.616) !important;
+}
+
+#rating-block #submit-btn {
+	width: 100%;
+	color: white;
+	background-color: #fc7613;
+	border: none;
+	border-radius: 50px;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#rating-block #submit-btn:hover {
+	cursor: pointer;
+	background-color: white;
+	color: #fc7613;
+}
+
+#thanks-block {
+	text-align: center;
+}
+
+#thanks-block img {
+	margin-bottom: 30px;
+	margin-top: 15px;
+}
+
+#thanks-block p.final-score {
+	font-size: 16px;
+	color: #d87d2e;
+	background-color: #262f38;
+	margin-bottom: 30px;
+	border-radius: 50px;
+	padding: 8px 20px;
+	display: inline-block;
+}
+
+#thanks-block {
+	display: flex;
+	flex-direction: column;
+}
+
+#thanks-block h1 {
+	font-weight: 500;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+#thanks-block p.comment {
+	font-size: 16px;
+	color: #9ca3ad;
+}
+
+@media (max-width: 1600px) {
+	.component {
+		width: 30%;
+	}
+}
+
+@media (max-width: 1024px) {
+	.component {
+		width: 40%;
+	}
+}
+
+@media (max-width: 768px) {
+	.component {
+		width: 60%;
+	}
+}
+
+@media (max-width: 500px) {
+	.component {
+		width: 85%;
+	}
+}

@@ -17,3 +17,6 @@ You only have to open the index.html file on a browser for each component folder
 ## Components
 ### 01 - result summary component
 ![Design preview for the Results summary component coding challenge](./01%20-%20result%20summary%20component//design/desktop-preview.jpg)
+
+### 02 - interactive rating component
+![Design preview for the Results summary component coding challenge](./02%20-%20interactive%20rating%20component/design/desktop-preview.jpg)
